@@ -1,3 +1,36 @@
+# My URL Shortener
+
+**Author:** J S M Eshwar Katakam  
+**Registration Number:** 12203539
+
+---
+
+## Quick Troubleshooting: Import Error in React
+
+If you see an error like `Failed to resolve import...`, it's usually a file path issue, not a code bug.
+
+**The Problem:**
+Your `App.jsx` file is looking for `ShortenerPage.jsx` and `StatisticsPage.jsx` in the wrong place. It's trying to find them at `/pages/` (absolute path).
+
+**The Fix:**
+Just use a relative path:
+
+- In `src/App.jsx`, change:
+  ```js
+  import ShortenerPage from '/pages/ShortenerPage';
+  import StatisticsPage from '/pages/StatisticsPage';
+  ```
+  to:
+  ```js
+  import ShortenerPage from './pages/ShortenerPage';
+  import StatisticsPage from './pages/StatisticsPage';
+  ```
+- Save the file and restart your dev server (`npm run dev`).
+
+This is like fixing a file path in a data pipeline so your functions can find the right modules. Once done, your app should load properly.
+
+---
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
