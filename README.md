@@ -8,10 +8,10 @@
 ## Application Screenshots
 
 ### Laptop View
-![Laptop View](screenshots/laptop-view.png)
+![Laptop View](public/laptop-view.png)
 
 ### Mobile View
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](public/mobile-view.png)
 
 ---
 
