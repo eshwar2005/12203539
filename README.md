@@ -5,6 +5,16 @@
 
 ---
 
+## Application Screenshots
+
+### Laptop View
+![Laptop View](screenshots/laptop-view.png)
+
+### Mobile View
+![Mobile View](screenshots/mobile-view.png)
+
+---
+
 ## Quick Troubleshooting: Import Error in React
 
 If you see an error like `Failed to resolve import...`, it's usually a file path issue, not a code bug.
@@ -43,3 +53,7 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
